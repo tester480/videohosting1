@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Videohosting1</title>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header-inner">
+               <div class="burger"><span></span></div>
+               <div class="logo">
+                  <a href="#"><img src="https://picsum.photos/150/40" alt="logo"></a>
+               </div>
+               <div class="header-nav">
+                  <ul class="menu">
+                     <li><a class="menu-link" href="#">
+                        <svg class="icon icon-home"><use xlink:href="#icon-home"></use>
+                           <symbol id="icon-home" viewBox="0 0 32 32">
+                              <path d="M1.105 18.725h2.607v10.426c0 0.614 0.503 1.117 1.117 1.117h7.633c0.614 0 1.117-0.503 1.117-1.117v-7.633h4.654v7.633c0 0.614 0.503 1.117 1.117 1.117h7.261c0.614 0 1.117-0.503 1.117-1.117v-10.426h3.165c0.447 0 0.856-0.279 1.024-0.689s0.074-0.894-0.242-1.21l-14.559-14.764c-0.428-0.428-1.136-0.447-1.564-0.019l-15.211 14.764c-0.335 0.317-0.428 0.801-0.261 1.229s0.577 0.689 1.024 0.689zM16.298 4.427l11.915 12.064h-1.601c-0.614 0-1.117 0.503-1.117 1.117v10.426h-5.027v-7.633c0-0.614-0.503-1.117-1.117-1.117h-6.889c-0.614 0-1.117 0.503-1.117 1.117v7.633h-5.399v-10.426c0-0.614-0.503-1.117-1.117-1.117h-0.968l12.437-12.064z"></path>
+                           </symbol>
+                        </svg>
+                        <span>Home</span>
+                     </a></li>
+                     <li><a class="menu-link" href="#">
+                        <svg class="icon icon-categories"><use xlink:href="#icon-categories"></use>
+                           <symbol id="icon-categories" viewBox="0 0 32 32">
+                              <path d="M8.727 17.455h14.545v1.455h-14.545v-1.455z"></path>
+                              <path d="M8.727 21.818h14.545v1.455h-14.545v-1.455z"></path>
+                              <path d="M8.727 4.364h8.727v1.455h-8.727v-1.455z"></path>
+                              <path d="M8.727 26.182h14.545v1.455h-14.545v-1.455z"></path>
+                              <path d="M8.727 13.091h14.545v1.455h-14.545v-1.455z"></path>
+                              <path d="M26.931 32c0 0 0.705 0 0.705-0.711v-24.889l-6.348-6.4h-16.22c0 0-0.705 0-0.705 0.711v30.576c0 0.713 0.705 0.713 0.705 0.713h21.862zM5.818 1.455h14.545v4.364c0 1.455 1.455 1.455 1.455 1.455h4.364v23.273h-20.364v-29.091z"></path>
+                              <path d="M8.727 8.727h14.545v1.455h-14.545v-1.455z"></path>
+                           </symbol>
+                        </svg>
+                        <span>Categories</span>
+                     </a></li>
+                     <li><a class="menu-link" href="#">
+                        <svg class="icon icon-tags"><use xlink:href="#icon-tags"></use>
+                           <symbol id="icon-tags" viewBox="0 0 32 32">
+                              <path d="M3.683 8.717c-2.031 0-3.683-1.652-3.683-3.683s1.652-3.683 3.683-3.683 3.683 1.652 3.683 3.683-1.652 3.683-3.683 3.683zM3.683 3.233c-0.993 0-1.8 0.808-1.8 1.8s0.808 1.8 1.8 1.8c0.993 0 1.8-0.808 1.8-1.8s-0.808-1.8-1.8-1.8z"></path>
+                              <path d="M31.059 5.975h-19.288c-0.52 0-0.941-0.422-0.941-0.941s0.421-0.941 0.941-0.941h19.288c0.52 0 0.941 0.422 0.941 0.941s-0.421 0.941-0.941 0.941z"></path>
+                              <path d="M3.683 19.683c-2.031 0-3.683-1.652-3.683-3.683s1.652-3.683 3.683-3.683 3.683 1.652 3.683 3.683-1.652 3.683-3.683 3.683zM3.683 14.2c-0.993 0-1.8 0.808-1.8 1.8s0.808 1.8 1.8 1.8c0.993 0 1.8-0.808 1.8-1.8s-0.808-1.8-1.8-1.8z"></path>
+                              <path d="M31.059 16.941h-19.288c-0.52 0-0.941-0.422-0.941-0.941s0.421-0.941 0.941-0.941h19.288c0.52 0 0.941 0.422 0.941 0.941s-0.421 0.941-0.941 0.941z"></path>
+                              <path d="M3.683 30.649c-2.031 0-3.683-1.652-3.683-3.683s1.652-3.683 3.683-3.683 3.683 1.652 3.683 3.683c0 2.031-1.652 3.683-3.683 3.683zM3.683 25.166c-0.993 0-1.8 0.808-1.8 1.8s0.808 1.8 1.8 1.8c0.993 0 1.8-0.808 1.8-1.8s-0.808-1.8-1.8-1.8z"></path>
+                              <path d="M31.059 27.907h-19.288c-0.52 0-0.941-0.422-0.941-0.941s0.421-0.941 0.941-0.941h19.288c0.52 0 0.941 0.422 0.941 0.941s-0.421 0.941-0.941 0.941z"></path>
+                           </symbol>
+                        </svg>
+                        <span>Tags</span>
+                     </a></li>
+                     <li><a class="menu-link" href="#">
+                        <svg class="icon icon-video"><use xlink:href="#icon-video"></use>
+                           <symbol id="icon-video" viewBox="0 0 32 32">
+                              <path d="M30 14l-6 4c0-1.214-0.552-2.288-1.406-3.022 2.033-1.225 3.406-3.432 3.406-5.978 0-3.866-3.134-7-7-7s-7 3.134-7 7c0 1.961 0.811 3.729 2.111 5h-3.668c0.958-1.063 1.557-2.456 1.557-4 0-3.314-2.686-6-6-6s-6 2.686-6 6c0 1.808 0.817 3.41 2.082 4.51-1.235 0.681-2.082 1.98-2.082 3.49v8c0 2.209 1.791 4 4 4h16c2.209 0 4-1.791 4-4v-1l6 5c1.105 0 2-0.895 2-2v-12c0-1.105-0.895-2-2-2zM2 10c0-2.209 1.791-4 4-4s4 1.791 4 4-1.791 4-4 4-4-1.791-4-4zM22 26c0 1.104-0.895 2-2 2h-16c-1.105 0-2-0.895-2-2v-8c0-1.105 0.895-2 2-2h16c1.105 0 2 0.895 2 2v8zM19 14.011c-2.768 0-5.011-2.244-5.011-5.011 0-2.768 2.244-5.011 5.011-5.011s5.011 2.243 5.011 5.011-2.243 5.011-5.011 5.011zM30 28l-6-5v-3l6-4v12z"></path>
+                           </symbol>
+                        </svg>
+                        <span>Top Videos</span>
+                     </a></li>
+                  </ul>
+               </div>
+               <div class="header-search">
+                  <form action="#">
+                     <input class="search" type="search" placeholder="Search">
+                     <button class="search-btn" type="submit">
+                        <svg class="icon icon-search"><use xlink:href="#icon-search"></use>
+                           <symbol id="icon-search" viewBox="0 0 32 32">
+                              <path d="M12.909 0c-6.844 0-12.392 5.549-12.392 12.392s5.549 12.392 12.392 12.392c2.632 0 5.072-0.821 7.078-2.219l9.372 9.37c0.085 0.085 0.222 0.085 0.302 0.006l1.766-1.766c0.082-0.082 0.074-0.222-0.006-0.302l-9.249-9.249c1.948-2.188 3.13-5.072 3.13-8.233 0-6.843-5.549-12.392-12.392-12.392zM12.909 23.327c-6.039 0-10.934-4.896-10.934-10.934s4.896-10.934 10.934-10.934 10.934 4.896 10.934 10.934c0 6.039-4.896 10.934-10.934 10.934z"></path>
+                           </symbol>
+                        </svg>
+                     </button>
+                     <button class="mob-close-btn" type="reset">
+                        <svg class="icon icon-close-btn"><use xlink:href="#icon-close-btn"></use>
+                           <symbol id="icon-close-btn" viewBox="0 0 32 32">
+                              <path d="M20.783 15.999l10.226-10.226c1.321-1.321 1.321-3.462 0-4.783s-3.462-1.321-4.783 0l-10.226 10.227-10.226-10.226c-1.321-1.321-3.462-1.321-4.783 0s-1.321 3.462 0 4.783l10.226 10.226-10.226 10.226c-1.321 1.321-1.321 3.462 0 4.783s3.462 1.321 4.783 0l10.226-10.225 10.226 10.225c1.321 1.321 3.462 1.321 4.783 0s1.321-3.462 0-4.783l-10.226-10.227z"></path>
+                           </symbol>
+                        </svg>
+                     </button>
+                  </form>
+               </div>
+               <button class="mob-search-btn" type="button">
+                  <svg class="icon icon-search-mob"><use xlink:href="#icon-search-mob"></use>
+                     <symbol id="icon-search-mob" viewBox="0 0 32 32">
+                        <path d="M31.697 30.259l-8.262-8.13c2.164-2.351 3.493-5.459 3.493-8.88-0.001-7.318-6.028-13.249-13.464-13.249s-13.463 5.931-13.463 13.249 6.027 13.249 13.463 13.249c3.213 0 6.159-1.111 8.474-2.959l8.294 8.162c0.404 0.398 1.060 0.398 1.464 0s0.405-1.044 0.001-1.442zM13.463 24.46c-6.291 0-11.392-5.019-11.392-11.211s5.1-11.211 11.392-11.211c6.291 0 11.392 5.019 11.392 11.211s-5.1 11.211-11.392 11.211z"></path>
+                     </symbol>
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="container">
+            <div class="video-wrap">
+               <div class="video">
+                  <div class="player"><img src="https://picsum.photos/990/600" alt="player"></div>
+                  <div class="content">
+                     <div class="video-heading">
+                        <h1 class="title">Title of this Top Video</h1>
+                        <div class="rating">
+                           <div class="progress-wrap">
+                              <span>71%</span>
+                              <button class="like">
+                                 <svg class="icon icon-like"><use xlink:href="#icon-like"></use>
+                                    <symbol id="icon-like" viewBox="0 0 32 32">
+                                       <path d="M21.778 27.044h-5.416c-0.002 0-0.005 0-0.008 0-1.109 0-2.17-0.204-3.148-0.577l0.061 0.020-4.219-1.567c-0.356-0.138-0.604-0.478-0.604-0.876 0-0.518 0.42-0.938 0.938-0.938 0.115 0 0.224 0.021 0.326 0.058l-0.007-0.002 4.218 1.567c0.723 0.277 1.56 0.438 2.434 0.438 0.003 0 0.006 0 0.009 0h5.415c0.491 0 0.888-0.398 0.888-0.888s-0.398-0.888-0.888-0.888v0c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0h1.278c0.491 0 0.888-0.398 0.888-0.888s-0.398-0.888-0.888-0.888v0c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0h1.277c0 0 0 0 0 0 0.491 0 0.888-0.398 0.888-0.888 0-0.245-0.099-0.467-0.26-0.628v0c-0.159-0.161-0.38-0.26-0.625-0.26-0.001 0-0.003 0-0.004 0h0c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0h1.278c0.489-0.002 0.885-0.399 0.885-0.888 0-0.245-0.099-0.467-0.26-0.628v0c-0.16-0.161-0.381-0.261-0.625-0.261h-8.853c-0 0-0.001 0-0.001 0-0.518 0-0.938-0.42-0.938-0.938 0-0.166 0.043-0.322 0.119-0.458l-0.002 0.005c0.268-0.531 0.469-1.148 0.571-1.798l0.005-0.035c0.212-1.367-0.049-2.603-0.776-3.672-0.141-0.199-0.369-0.326-0.628-0.326-0.423 0-0.765 0.342-0.768 0.764v0c0.031 3.211-1.453 5.545-4.291 6.75-0.113 0.052-0.244 0.082-0.383 0.082-0.518 0-0.938-0.42-0.938-0.938 0-0.392 0.24-0.727 0.582-0.868l0.006-0.002c1.17-0.5 2.023-1.234 2.534-2.192 0.418-0.782 0.625-1.728 0.614-2.813-0.009-1.185 0.721-2.185 1.857-2.539s2.301 0.049 2.966 1.029c1.544 2.272 1.266 4.631 0.843 6.076h7.48c1.526 0 2.763 1.237 2.763 2.763 0 1.080-0.619 2.015-1.523 2.47l-0.016 0.007c0.165 0.343 0.261 0.747 0.261 1.172 0 1.080-0.619 2.016-1.522 2.472l-0.016 0.007c0.165 0.344 0.261 0.747 0.261 1.172 0 1.081-0.62 2.017-1.523 2.472l-0.016 0.007c0.165 0.344 0.261 0.747 0.261 1.173 0 1.526-1.236 2.763-2.761 2.764h-0z"></path>
+                                       <path d="M9.688 25.656h-5.367c-0.518 0-0.938-0.42-0.938-0.938v0-12.852c0-0.518 0.42-0.938 0.938-0.938v0h5.367c0.518 0 0.938 0.42 0.938 0.938v0 12.852c0 0.518-0.42 0.938-0.938 0.938v0zM5.26 23.781h3.49v-10.977h-3.492z"></path>
+                                    </symbol>
+                                 </svg>
+                              </button>
+                              <button class="dislike">
+                                 <svg class="icon icon-dislike"><use xlink:href="#icon-dislike"></use>
+                                    <symbol id="icon-dislike" viewBox="0 0 32 32">
+                                       <path d="M15.143 26.712c-0 0-0 0-0.001 0-0.292 0-0.574-0.046-0.838-0.13l0.019 0.005c-1.139-0.356-1.867-1.352-1.856-2.539 0.010-1.084-0.197-2.031-0.614-2.813-0.512-0.958-1.364-1.696-2.534-2.192-0.34-0.147-0.573-0.479-0.573-0.865 0-0.519 0.421-0.94 0.94-0.94 0.132 0 0.258 0.027 0.372 0.077l-0.006-0.002c2.838 1.204 4.321 3.538 4.291 6.75 0.002 0.422 0.345 0.764 0.768 0.764 0.259 0 0.488-0.128 0.627-0.324l0.002-0.002c1.771-2.607 0.217-5.477 0.201-5.506-0.074-0.131-0.117-0.288-0.117-0.454 0-0.518 0.42-0.937 0.937-0.938h8.852c0.481-0.013 0.865-0.406 0.865-0.888s-0.385-0.875-0.864-0.888l-0.001-0h-1.278c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0c0 0 0 0 0.001 0 0.49 0 0.887-0.397 0.887-0.887 0-0 0-0 0-0.001v0c-0.001-0.49-0.398-0.887-0.888-0.888h-1.278c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0c0.491 0 0.888-0.398 0.888-0.888s-0.398-0.888-0.888-0.888v0h-1.278c-0.518 0-0.938-0.42-0.938-0.938s0.42-0.938 0.938-0.938v0c0.491 0 0.888-0.398 0.888-0.888s-0.398-0.888-0.888-0.888v0h-5.416c-0.003 0-0.006 0-0.009 0-0.874 0-1.71 0.16-2.48 0.454l0.048-0.016-4.219 1.567c-0.077 0.023-0.165 0.036-0.257 0.036-0.518 0-0.938-0.42-0.938-0.938 0-0.374 0.219-0.697 0.536-0.847l0.006-0.002 4.219-1.567c0.919-0.353 1.981-0.558 3.092-0.558 0.001 0 0.002 0 0.003 0h5.415c1.525 0.003 2.761 1.24 2.761 2.766 0 0.425-0.096 0.829-0.268 1.189l0.007-0.017c0.919 0.463 1.539 1.399 1.539 2.479 0 0.426-0.096 0.829-0.268 1.189l0.007-0.017c0.919 0.463 1.538 1.399 1.538 2.479 0 0.426-0.096 0.829-0.268 1.189l0.007-0.017c0.919 0.462 1.538 1.397 1.538 2.477 0 1.526-1.237 2.763-2.763 2.763h-7.478c0.423 1.444 0.702 3.803-0.843 6.076-0.468 0.7-1.254 1.154-2.147 1.155h-0z"></path>
+                                       <path d="M9.688 19.116h-5.367c-0.518 0-0.938-0.42-0.938-0.938v0-12.852c0-0.518 0.42-0.938 0.938-0.938v0h5.367c0.518 0 0.938 0.42 0.938 0.938v0 12.852c0 0.518-0.42 0.938-0.938 0.938v0zM5.26 17.241h3.49v-10.977h-3.492z"></path>
+                                    </symbol>
+                                 </svg>
+                              </button>
+                              <div class="progress">
+                                 <div class="progress-inner"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="video-info">
+                           <div class="info-item">
+                              <span class="lit-title">Views:</span>
+                              <span class="info-dscr">124,65</span>
+                           </div>
+                           <div class="info-item">
+                              <span class="lit-title">Duration:</span>
+                              <span class="info-dscr">45:32</span>
+                           </div>
+                           <div class="info-item">
+                              <span class="lit-title">Added:</span>
+                              <span class="info-dscr">26.08.2020</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="watch">
+                        <div class="watch-item">
+                           <span class="lit-title">Watch full video at</span>
+                           <a class="tags-link">Video Top</a>
+                        </div>
+                        <div class="watch-item">
+                           <span class="lit-title">Starred:</span>
+                           <a class="tags-link">Top</a>
+                           <a class="tags-link">Video</a>
+                        </div>
+                     </div>
+                     <div class="description">
+                        <p><span class="lit-title">Description:</span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                           Porro, ex facilis eius commodi a quaerat sint assumenda quasi magnam, doloribus dicta in nihil obcaecati 
+                           quam ad, illo rem expedita id enim? Fugiat ipsum hic cupiditate dicta sunt eaque corporis sapiente 
+                           praesentium odio quod maxime nostrum inventore delectus, commodi consectetur expedita ipsa recusandae 
+                           rerum? Nemo, omnis nesciunt!</p>
+                     </div>
+                     <div class="video-tags">
+                        <span class="lit-title">Tags:</span>
+                        <div class="tags">
+                           <div class="tags-list">
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Video</a></div>
+                              <div class="tags-item"><a href="#" class="tags-link">Top</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar">
+                  <a class="sidebar-item" href="#">
+                     <img src="https://picsum.photos/300/250" alt="sidebar">
+                  </a>
+                  <a class="sidebar-item" href="#">
+                     <img src="https://picsum.photos/300/250" alt="sidebar">
+                  </a>
+               </div>
+            </div>
+            <div class="adv-screen">
+               <a href="#"><img src="https://picsum.photos/1330/250" alt="adv-big-img"></a>
+            </div>
+            <section class="videos">
+               <div class="heading">
+                  <h2 class="title videos-title">Popular Top <span>Categories</span></h2>
+                  <div class="sort">
+                     <span class="sort-title">Sort by:</span>
+                     <a href="#" class="sort-item">New</a>
+                     <a href="#" class="sort-item">Popular</a>
+                     <a href="#" class="sort-item">Trending</a>
+                  </div>
+               </div>
+               <div class="card-list">
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+                  <div class="card">
+                     <a class="card-inner" href="video.html">
+                        <div class="card-img">
+                           <img src="https://picsum.photos/320/210" alt="Top">
+                        </div>
+                        <span class="card-title">Lorem ipsum admon</span>
+                        <span class="duration">25:52</span>
+                        <span class="quality">HD</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="more">
+                  <a href="#" class="more-btn">Show more</a>
+               </div>
+            </section>
+            <div class="adv">
+               <div class="list">
+                  <a class="item">
+                     <img src="https://picsum.photos/240/240" alt="advertising">
+                  </a>
+                  <a class="item">
+                     <img src="https://picsum.photos/240/240" alt="advertising">
+                  </a>
+                  <a class="item">
+                     <img src="https://picsum.photos/240/240" alt="advertising">
+                  </a>
+                  <a class="item">
+                     <img src="https://picsum.photos/240/240" alt="advertising">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="logo">
+            <a href="#"><img src="https://picsum.photos/150/40" alt="logo"></a>
+         </div>
+         <div class="menu">
+            <a href="#">Terms</a>
+            <a href="#">Topstars</a>
+            <a href="#">Content</a>
+            <a href="#">Video</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+         </div>
+         <div class="dscr">2020logo &copy; www.site.name.ru</div>
+      </footer>
+   </div>
+   
+   <script src="js/libs.min.js"></script>
+   <script src="js/main.js"></script>
+   
+   </body>
+   </html>
